@@ -71,7 +71,7 @@ public class TestPerson {
     @Test
     public void testSetName() {
         // Given
-        Person person = new Person();
+        Person person = new Person(null, null);
         String expected = "Leon";
 
         // When
@@ -85,7 +85,7 @@ public class TestPerson {
     @Test
     public void testSetAge() {
         // Given
-        Person person = new Person();
+        Person person = new Person(null, null);
         Integer expected = 5;
 
         // When
