@@ -71,7 +71,7 @@ public class TestPerson {
     @Test
     public void testSetName() {
         // Given
-        Person person = new Person(null, null);
+        Person person = new Person();
         String expected = "Leon";
 
         // When
