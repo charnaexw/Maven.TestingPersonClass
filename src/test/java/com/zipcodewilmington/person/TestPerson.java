@@ -85,7 +85,7 @@ public class TestPerson {
     @Test
     public void testSetAge() {
         // Given
-        Person person = new Person(null, null);
+        Person person = new Person(null, 5);
         Integer expected = 5;
 
         // When
